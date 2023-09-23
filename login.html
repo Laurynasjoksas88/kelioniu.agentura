@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+
+        <h1 style="text-align: center;">ŠOKLIUKAS</h1>
+        <a href="/home.page.html">
+            <img src="/photo/logo.png" alt="plane.logo" width="300" height="200"></a>
+        <nav id="navmain">
+            <a href="/blog.html">BLOG'AS</a>
+            <br>
+            <a href="/travel.form.html">UŽSISAKYK KELIONĘ</a>
+            <a href="/login.htm" style="float: right">PRISIJUNGTI</a>
+        </nav>
+        <br>
+        <form action="login.html" method="get" class="form-example">
+
+            <div class="login">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="login">
+                <label for="password">Slaptažodis:</label>
+                <input type="password" name="password" id="password" required />
+            </div>
+
+            <div class="login">
+                <label for="password">Patvirtinkite slaptažodį:</label>
+                <input type="password" name="password" id="password" required />
+            </div>
+
+            <div>
+                <label for="avatar">Jūsų profilio nuotrauka:</label>
+                <input type="file" id="file" name="file" accept="image/png, image/jpeg" />
+            </div>
+
+            <div>
+                <label for="radio">Lytis:
+                    <form action="">
+                        <input type="radio" name="gender" value="male"> Vyras
+                        <input type="radio" name="gender" value="female"> Moteris
+                    </form>
+            </div>
+
+
+            <div>
+                <label for="country">Miestas iš kurio skrendate:</label>
+                <select id="country" name="country">
+                    <option value="lithuania">Lithuania</option>
+                    <option value="india">India</option>
+                    <option value="china">China</option>
+                    <option value="jav">JAV</option>
+            </div>
+</body>
+
+<footer>
+    <nav id="navbottom">
+        <a href="/blog.html" style="text-align: left;">BLOG'AS</a>
+        <a href="/travel.form.html" style="text-align: center;">UŽSISAKYK KELIONĘ</a>
+        <a href="login.html" style="float: right">PRISIJUNGTI</a>
+    </nav>
+    <p style="text-align: end;">Copyright&copy;</p>
+    <h6 style="text-align: center;">Visos teisės saugomos Ryčka 99</h6>
+</footer>
+
+
+</html>
